@@ -1,0 +1,2 @@
+-- Deprecated migration kept intentionally as a no-op.
+-- Task attachments were removed from Phase 2 before rollout.

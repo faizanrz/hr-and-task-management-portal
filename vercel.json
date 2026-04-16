@@ -1,0 +1,32 @@
+{
+  "crons": [
+    {
+      "path": "/api/tasks/auto-archive",
+      "schedule": "0 2 * * *"
+    },
+    {
+      "path": "/api/emails/task-due-today",
+      "schedule": "0 4 * * 1-5"
+    },
+    {
+      "path": "/api/emails/task-overdue",
+      "schedule": "0 5 * * 1-5"
+    },
+    {
+      "path": "/api/emails/weekly-performance",
+      "schedule": "0 6 * * 1"
+    },
+    {
+      "path": "/api/emails/monthly-performance",
+      "schedule": "0 6 1 * *"
+    },
+    {
+      "path": "/api/emails/team-performance-monthly",
+      "schedule": "0 7 1 * *"
+    },
+    {
+      "path": "/api/emails/remaining-leaves",
+      "schedule": "0 6 15 * *"
+    }
+  ]
+}
