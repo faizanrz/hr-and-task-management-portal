@@ -1,3 +1,5 @@
+![HR & Task Management Portal](./banner.png)
+
 # HR & Task Management Portal
 
 A full-featured employee management portal built with Next.js 14 and Supabase. Consolidates HR, payroll, attendance, task management, and document storage into a single web application.
